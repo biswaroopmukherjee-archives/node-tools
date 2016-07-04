@@ -21,11 +21,11 @@ function makeEmpty(xmin,xmax,xspacing) {
 function getMean(test_array){
 	var total = 0;
 	for (var i=0; i<test_array.length; i++){
-		total += test_array[i]
+		total += test_array[i];
 	}
-	var avg = total/test_array.length
-	return avg
-}
+	var avg = total/test_array.length;
+	return avg;
+};
 
 // Bin the spectra
 exports.BinSpectra = function(spectra_x, spectra_y){
@@ -45,8 +45,8 @@ exports.BinSpectra = function(spectra_x, spectra_y){
 		var y_bin = [];
 		// Find the y-values in the current bin
 		for (j=0; j<spectra_x.length; j++){
-			var x_point = spectra_x[j]
-			var bin_edges = [binned_spectrum[0][i] - xspacing/2, binned_spectrum[0][i+1] - xspacing/2]
+			var x_point = spectra_x[j];
+			var bin_edges = [binned_spectrum[0][i] - xspacing/2, binned_spectrum[0][i+1] - xspacing/2];
 			// Check if the current x_point is in the bin
 			if (bin_edges[0] <= x_point && x_point < bin_edges[1]){
 				y_bin.push(spectra_y[j])
@@ -68,5 +68,5 @@ exports.BinSpectra = function(spectra_x, spectra_y){
 		}
 	}
 
-	return binned_spectrum
-}
+	return binned_spectrum;
+};

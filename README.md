@@ -1,5 +1,5 @@
 # node-tools
-Useful stuff for node
+Useful stuff for NodeJS
 
 ## spectra_bin
 

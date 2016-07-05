@@ -1,7 +1,7 @@
 # node-tools
 Useful stuff for node
 
-# spectra_bin
+## spectra_bin
 
 Usage:
 ``` javascript

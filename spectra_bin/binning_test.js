@@ -13,7 +13,7 @@ var binnedspec = sb.BinSpectra(spectra_x, spectra_y);
 
 
 
-var plotly = require('plotly')('BiswaroopMukherjee91','khjvrn5zi4');
+var plotly = require('plotly')('Username','API key');
 
 
 

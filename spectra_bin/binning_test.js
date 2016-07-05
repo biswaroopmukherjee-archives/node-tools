@@ -35,7 +35,7 @@ var trace2 = {
 
 var data = [trace1, trace2];
 
-var layout = {fileopt : "overwrite", filename : "gemasign test"};
+var layout = {fileopt : "overwrite", filename : "binspectra"};
 
 
 plotly.plot(data, layout, function (err, msg) {
